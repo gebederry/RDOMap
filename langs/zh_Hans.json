@@ -1671,5 +1671,6 @@
   "singleplayer.sp_wilderness_chest_82.name": "荒野宝箱 #82",
   "map.singleplayer.sp_crayfish_holes.name": "小龙虾洞",
   "map.singleplayer.sp_crayfish_holes.desc": "这里有个小龙虾洞，掏一下能抓到只小龙虾。",
-  "singleplayer.sp_crayfish_hole.name": "小龙虾洞"
+  "singleplayer.sp_crayfish_hole.name": "小龙虾洞",
+  "menu.link_to_another_map": "前往收藏家地图"
 }

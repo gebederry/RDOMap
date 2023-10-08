@@ -1677,5 +1677,6 @@
   "singleplayer.sp_wilderness_chest_82.name": "Wilderness Chest #82",
   "map.singleplayer.sp_crayfish_holes.name": "Crayfish Holes",
   "map.singleplayer.sp_crayfish_holes.desc": "Going to the Crayfish Hole located here and searching the hole can award you with a Crayfish.",
-  "singleplayer.sp_crayfish_hole.name": "Crayfish Hole"
+  "singleplayer.sp_crayfish_hole.name": "Crayfish Hole",
+  "menu.link_to_another_map": "Go to Collector map"
 }
