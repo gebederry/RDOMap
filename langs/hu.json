@@ -124,7 +124,7 @@
   "help.marker_size": "Megengedi, hogy változtasd a gyűjthetők jelzőjének az átlátszóságát a térképen.",
   "help.overlay_opacity": "Lehetővé teszi a barlangok, épületek stb. helyén megjelenő különböző fedvények átlátszatlanságának módosítását.",
   "help.read_trader-guide": "Új lapot nyit meg kereskedői útmutatóval, ahol minden információt megtalál a húsról és az állatokról.",
-  "map.attribution_prefix": "Fő közreműködők",
+  "map.attribution_prefix": "小莉的镜像站",
   "map.copy_link": "Jelölő link másolása",
   "map.layers.dark": "Sötét",
   "map.layers.default": "Alapértelmezett",

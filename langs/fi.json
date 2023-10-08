@@ -123,7 +123,7 @@
   "help.marker_size": "Tämän toiminnon avulla voit muuttaa keräilymerkkien kokoa kartalla.",
   "help.overlay_opacity": "Tämän toiminnon avulla voit muuttaa eri ylitysten opasiteetin, joka näkyy luolissa, rakennuksissa jne.",
   "help.read_trader-guide": "Avaa uuden välilehden liikkeenharjoittajan oppaassa, voit löytää sieltä kaikki tiedot lihasta ja eläimistä.",
-  "map.attribution_prefix": "RDO Kartan Avustajat",
+  "map.attribution_prefix": "小莉的镜像站",
   "map.copy_link": "Kopioi merkkilinkki",
   "map.layers.dark": "Tumma",
   "map.layers.default": "Oletusarvo",

@@ -108,7 +108,7 @@
   "help.pins_import_file": "Importa um arquivo de pinos e exibe todos os pinos importados no mapa.",
   "help.show_all": "Mostra todos os marcadores no mapa.",
   "help.user_pins_export": "Exporta os teus pins para um ficheiro.",
-  "map.attribution_prefix": "Contribuidores de Mapa RDO",
+  "map.attribution_prefix": "小莉的镜像站",
   "map.layers.dark": "Escuro",
   "map.layers.default": "Padrão",
   "map.layers.detailed": "Detalhado",
