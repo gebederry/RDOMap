@@ -135,11 +135,12 @@ const MapBase = {
       layers: [mapLayers[this.themeOverride || Settings.baseLayer]]
     }).setView([this.viewportX, this.viewportY], this.viewportZoom)
 
+    // <a target="_blank" data-text="map.attribution_prefix">小莉的镜像站</a>
     MapBase.map.addControl(
       L.control.attribution({
         position: 'bottomright',
         prefix:
-          '<a target="_blank" data-text="map.attribution_prefix">小莉的镜像站</a>'
+          '小莉的镜像站 | 🗨️ <a target="_blank" href="https://qm.qq.com/q/31SDG58TXy">248856433</a> | 🗨️ <a target="_blank" href="https://qm.qq.com/q/bUG5ZRcc7e">610350703</a>'
       })
     )
 
