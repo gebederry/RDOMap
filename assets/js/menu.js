@@ -41,7 +41,7 @@ class Menu {
       PlantsCollection.locations.forEach(_plants => {
         if (_plants.onMap) _plants.onMap = !_plants.onMap;
       });
-      Camp.locations.forEach(camp => {
+      CampCollection.locations.forEach(camp => {
         if (camp.onMap) camp.onMap = !camp.onMap;
       });
       Location.locations.forEach(loc => {
@@ -78,7 +78,7 @@ class Menu {
         if (!_plants.onMap) _plants.onMap = !_plants.onMap;
       });
       setTimeout(() => PlantsCollection.layer.redraw(), 40);
-      Camp.locations.forEach(camp => {
+      CampCollection.locations.forEach(camp => {
         if (!camp.onMap) camp.onMap = !camp.onMap;
       });
       Location.locations.forEach(loc => {
@@ -100,27 +100,18 @@ class Menu {
 
     $('.camps-small-btn').on('click', function () {
       $(this).toggleClass('disabled');
-      Camp.isSmall = !Camp.isSmall;
-      Camp.locations.forEach(camp => {
-        if (camp.layer['_map'] != null) camp.reinitMarker();
-      });
-      MapBase.updateTippy('campsbtn');
+      CampCollection.isSmall = !CampCollection.isSmall;
+      CampCollection.toggleMarkersOnType();
     });
     $('.camps-large-btn').on('click', function () {
       $(this).toggleClass('disabled');
-      Camp.isLarge = !Camp.isLarge;
-      Camp.locations.forEach(camp => {
-        if (camp.layer['_map'] != null) camp.reinitMarker();
-      });
-      MapBase.updateTippy('campsbtn');
+      CampCollection.isLarge = !CampCollection.isLarge;
+      CampCollection.toggleMarkersOnType();
     });
     $('.camps-wilderness-btn').on('click', function () {
       $(this).toggleClass('disabled');
-      Camp.isWilderness = !Camp.isWilderness;
-      Camp.locations.forEach(camp => {
-        if (camp.layer['_map'] != null) camp.reinitMarker();
-      });
-      MapBase.updateTippy('campsbtn');
+      CampCollection.isWilderness = !CampCollection.isWilderness;
+      CampCollection.toggleMarkersOnType();
     });
 
     $('.shops-hide-btn').on('click', function () {

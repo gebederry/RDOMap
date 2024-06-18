@@ -98,7 +98,7 @@ function init() {
   const fmeCondorEgg = CondorEgg.init();
   const fmeSalvage = Salvage.init();
   const plants = PlantsCollection.init();
-  const camps = Camp.init();
+  const camps = CampCollection.init();
   const shops = Shop.init();
   const singleplayer = Singleplayer.init();
   const gfh = GunForHire.init();
@@ -263,7 +263,7 @@ $('#language').on('change', function () {
 
   AnimalCollection.onLanguageChanged();
   Bounty.onLanguageChanged();
-  Camp.onLanguageChanged();
+  CampCollection.onLanguageChanged();
   Encounter.onLanguageChanged();
   GunForHire.onLanguageChanged();
   Legendary.onLanguageChanged();
